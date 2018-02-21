@@ -37,7 +37,7 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
+            <div id="navigation-list"></div>
             <!--<li><a href="">About</a></li>
             <li><a href="">Contact</a></li>
             <li class="dropdown">
@@ -49,9 +49,9 @@
                 <li role="separator" class="divider"></li>
                 <li class="dropdown-header">Nav header</li>
                 <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>-->
+                <li><a href="#">One more separated link</a></li>
               </ul>
-            </li>
+            </li>-->
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -687,5 +687,10 @@
     <script src="../../assets/js/docs.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script type="text/javascript">
+      $(function(){
+      $("#navigation-list").load("navigation-list.html");
+      })
+    </script>
   </body>
 </html>
