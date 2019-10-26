@@ -1,0 +1,14 @@
+.no-padding{
+  padding-right: 0rem;
+  padding-left: 0rem;
+}
+
+.mainwrap{
+  padding: 1.5rem;
+  margin-top: 5rem;
+}
+
+.simple-headline{
+  margin-top: 0rem;
+  border-left: solid 0.6rem lightblue;
+}
